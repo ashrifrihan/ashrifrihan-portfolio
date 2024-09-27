@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ashrif Rihan - UI/UX Designer and Frontend Developer. Explore my portfolio and skills.">
+    <meta name="description" content="Ashrif Rihan - Skilled UI/UX Designer and Frontend Developer with experience in mobile/web applications. Explore my portfolio, skills, and projects.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ashrif Rihan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" class="a">About</a></li>
+                <li><a href="#skills" class="a">Skills</a></li>
+                <li><a href="#education" class="a">Education</a></li>
+                <li><a href="#project" class="a">Project</a></li>
+                <li><a href="#contact" class="a">Contact</a></li>
+                <li><img src="./assets/moon.png" alt="dark mode" class="icon-4" id="desktop-icon"></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+        <div class="logo">Ashrif Rihan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()" class="a">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()" class="a">Skills</a></li>
+                <li><a href="#education" onclick="togglemenu()" class="a">Education</a></li>
+                <li><a href="#project" onclick="togglemenu()" class="a">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()" class="a">Contact</a></li>
+            
+            </div>
+        </div>
+    </nav>
+
+    <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+      </div>
+  
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Ashrif Profile pic">
+        </div>
+        <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Ashrif Rihan</h1>
+                <p class="section__text__p2"><span class="auto-type"></span></p>
+       
+        <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open('./assets/ashrif rihan (2).pdf')"><div class="text">Download Resume</div></button>
+            <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact info</button>
+        </div>
+        <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/in/ashrif-rihan/'">
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/ashrifrihan'">
+                <img src="./assets/behance-logo.png" alt="My Behnace Profile" class="icon" onclick="location.href='https://www.behance.net/ashrif_rihan'">
+                <img src="./assets/Dribble.png" alt="My Dribble Profile" class="icon" onclick="location.href='https://dribbble.com/ashrif_rihan'">
+        </div>
+    </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container-1">
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon-1">
+                        <h3 class="section__text__p7">Experience</h3>
+                        <p>1+ Years <br>UI/UX Designer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon-1">
+                        <h3 class="section__text__p7">Education</h3>
+                        <p>BTEC Level 5 HND in Computing Software Engineering <br>&<br>BEng (Hons) in Software Engineering Degree(R)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="section__text__p9">
+                        I'm Passionate UI/UX designer and web developer with 1+ Years of experince. 
+                        Skilled in creating user-friendly design and developing mobile/web applications. I enjoy problem-solving and delivering
+                        engaging user experince. Currenly I'm focus on expending my expertise in React Native and C#. Net.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Abilities</h1>
+        <div class="skills-details-container">
+            <div class="about-container"> 
+                <div class="details-container"> 
+                    <h2 class="skills-sub-title">UI/UX Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>Wireframing & Prototyping</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>Interaction & Visual design</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>Responsive Design & Accessibility</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                
+                <div class="details-container"> 
+                    <h2 class="skills-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>C#. Net</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon-3">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <p class="section__text__p1">Discver My</p>
+        <h1 class="title">Journey</h1>
+        <div class="timeline">
+            <div class="container left-container">
+                <img src="assets/esoft.png" alt="icon">
+                <div class="text-box">
+                    <h2>Esoft Metro Campus</h2>
+                    <small>Diploma in Information Technology</small>    
+                    <p class="text12">2023 - 2024</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ab cumque .</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+            <div class="container right-container">
+                <img src="assets/Education 4.png" alt="icon">
+                <div class="text-box">
+                    <h2>Pearson college london</h2>
+                    <small>Higher National Diploma in Software Engineering</small>
+                    <p class="text12">2023-2024</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ab cumque .</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+            <div class="container left-container">
+                <img src="assets/london metropolitan university.png" alt="icon">
+                <div class="text-box">
+                    <h2>London Metropolitan University</h2>
+                    <small>BEng (Hons) in Software Engineering Degree(R)</small>    
+                    <p class="text12">2024 - 2025</p>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ab cumque .</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <p class="section__text__p1">Quality works</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+            <div class="projects">
+                <div class="image-container">
+                    <img src="./assets/project-1.jpg" alt="Tesla Mark">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3 class="title-1">Tesla Mark</h3>
+                            <p class="section__text__p4">UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="image-container">
+                    <img src="./assets/project-2.jpg" alt="Quick Eats">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3 class="title-1">Quick Eat's</h3>
+                            <p class="section__text__p4">UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="image-container">
+                    <img src="./assets/project-3.jpg" alt="Auto Cars">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3 class="title-1">Auto Cars</h3>
+                            <p class="section__text__p4">UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="image-container">
+                    <img src="./assets/project-4.jpg" alt="Malcolm Lismore Website">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3 class="title-2">Malcolm Lismore Website</h3>
+                            <p class="section__text__p4">Web Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="image-container">
+                    <img src="./assets/project-5.jpg" alt="E Video Player">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3 class="title-1">E Video Player</h3>
+                            <p class="section__text__p4">UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="image-container">
+                    <img src="./assets/project-6.jpg" alt="Quick Shop App">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3 class="title-1">Quick Shop App</h3>
+                            <p class="section__text__p4">UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+<section id="contact">
+    <p class="section__text__p1">Get in</p>
+    <h1 class="title">Touch</h1>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <input type="hidden" name="access_key" value="4a0f29e8-48c2-4abc-b560-6c78736b921a">
+            <input type="text" name="name" placeholder="Enter your name" class="contact-input" required autocomplete="name">
+            <input type="email" name="email" placeholder="Enter your email" class="contact-input" required autocomplete="email">
+            <textarea name="message" placeholder="Enter your message" class="contact-input" required autocomplete="off"></textarea>
+            <button type="submit">Submit <img src="./assets/arrow righ1t.png" alt="Arrow icon"></button>
+        </form>
+        <div class="chat-waiting-animation">
+            <img src="./assets/Musician In Studio.gif" alt="Person waiting for chat" class="chat-animation-gif">
+        </div>
+    </div>
+    
+</section>
+
+<footer id="footer">
+    <div class="footer">
+        <div class="footer-text">
+            <p class="h3-text">Frontend Developer | UI/UX Designer | QA Tester</p>
+        </div>
+        <div class="footer-text-1">
+            <p class="h3-text">Mohamed Ashrif Rihan</p>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/ashrif_rihan/"><img src="./assets/instagram-icon.png" alt="instagram-icon" class="icon-5"></a>
+            <a href="https://m.facebook.com/ashrif.rihan.9/"><img src="./assets/facebook.png" alt="facebook-icon" class="icon-5"></a>
+            <a href="https://www.pinterest.com/ashrif_rihan/"><img src="./assets/pinterest.png" alt="pinterest" class="icon-5"></a>
+            <a href="https://www.behance.net/ashrif_rihan"><img src="./assets/behance.png" alt="behance" class="icon-5"></a>
+            <a href="https://github.com/ashrifrihan"><img src="./assets/github-1.png" alt="github-icon" class="icon-5"></a>
+            <a href="https://dribbble.com/ashrif_rihan"><img src="./assets/dribbble-1.png" alt="dribbble" class="icon-5"></a>
+        </div>
+        <div class="footer-text-2">
+            <p class="h3-text"> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohammedashrifrihan@gmail.com" target="_blank">mohammedashrifrihan@gmail.com</a>  &nbsp;  | 	&nbsp; <a href="tel:+94767222293">+94 76 7222 293</a></p>
+        </div>
+
+    </div>
+</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>    
+    <script src="script.js"></script>
+</body>
+</html>
