@@ -383,6 +383,7 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+    position: relative;
 }
 
 
@@ -616,6 +617,7 @@ article .icon {
     color: red;
 }
 
+/* Project CSS media Queries */
 @media (max-width: 768px) {
     .projects {
         width: 100%;
