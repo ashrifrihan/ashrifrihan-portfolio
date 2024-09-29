@@ -102,7 +102,7 @@
      #hamburger-nav{
          display: flex;
          justify-content: space-between;
-         margin: 0px 80px;
+         margin: 0px 50px;
  
      }
  
@@ -189,9 +189,10 @@
      }
  
      .menu-links{
-         margin-top: 20px;
-         margin-right: 120px;
-         width: 800px;
+         margin: 20px 120px 20px 120px;
+         width: 500px;
+         align-self: center;
+         justify-self: center;
      }
  
      .contact-left{

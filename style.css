@@ -128,10 +128,8 @@ nav{
 .menu-links{
     position: absolute;
     top: 100%;
-    right: -2%;
+    right: 50%;
     background-color: #212121;
-    width: 690px;
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.8s;
     z-index: 20;
@@ -187,7 +185,7 @@ section{
     box-sizing: border-box;
     min-width: fit-content;
     opacity: 0;
-    transform: translateY(50px); /* Move sections slightly below */
+    transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     position: relative;
 }
